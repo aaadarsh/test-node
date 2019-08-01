@@ -1,6 +1,6 @@
-let express = require('express');
+var express = require('express');
 
-let app = express();
+var app = express();
 
 app.get('/', (req, res)=>{
     res.send('Home page');
